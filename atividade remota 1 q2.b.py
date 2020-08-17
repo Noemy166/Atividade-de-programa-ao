@@ -8,5 +8,5 @@ def main():
   media = (a + b + c)/3
   print(f'A media dos números é {media:.2f}')
   
-if __name__ == '__main__':
+if __name__ == "__main__":
   main()  
