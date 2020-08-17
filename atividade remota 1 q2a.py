@@ -1,5 +1,13 @@
-import datetime
+  
+ def quest2_a():
+  return
 
-x = datetime.datetime(2002, 6, 28)
-
-print(x.strftime('%d/%m/%y'))
+def main():
+  dia = int(input('Dia: '))
+  mes = int(input('Mês: '))
+  ano = int(input('Ano: '))
+  
+  print(f'{dia}/{mes}/{ano}')
+  
+if __name__ == '__main__':
+  main()
